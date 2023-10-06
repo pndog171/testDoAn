@@ -1,4 +1,4 @@
-﻿namespace testDoAn
+namespace testDoAn
 {
     partial class Form1
     {
@@ -37,6 +37,8 @@
             this.fluentFormDefaultManager1 = new DevExpress.XtraBars.FluentDesignSystem.FluentFormDefaultManager(this.components);
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.fluentDesignFormContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.accordionControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fluentDesignFormControl1)).BeginInit();
@@ -47,6 +49,7 @@
             // 
             this.fluentDesignFormContainer1.Controls.Add(this.button2);
             this.fluentDesignFormContainer1.Controls.Add(this.button3);
+            this.fluentDesignFormContainer1.Controls.Add(this.textBox1);
             this.fluentDesignFormContainer1.Controls.Add(this.button1);
             this.fluentDesignFormContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.fluentDesignFormContainer1.Location = new System.Drawing.Point(303, 39);
@@ -58,6 +61,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(155, 146);
+            this.button1.Location = new System.Drawing.Point(155, 233);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(88, 28);
@@ -117,6 +121,12 @@
             this.button3.TabIndex = 0;
             this.button3.Text = "me may beo";
             this.button3.UseVisualStyleBackColor = true;
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(143, 119);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 23);
+            this.textBox1.TabIndex = 1;
             // 
             // Form1
             // 
@@ -133,6 +143,7 @@
             this.NavigationControl = this.accordionControl1;
             this.Text = "Form1";
             this.fluentDesignFormContainer1.ResumeLayout(false);
+            this.fluentDesignFormContainer1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.accordionControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fluentDesignFormControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fluentFormDefaultManager1)).EndInit();
@@ -149,6 +160,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
